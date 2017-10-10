@@ -19,13 +19,13 @@ class ViewController: UIViewController
     }
     @IBAction func firstMethod(_ sender: UIButton)
     {
-        if (firstButton.backgroundColor == .orange)
+        if (firstButton.backgroundColor == .yellow)
         {
             firstButton.backgroundColor = .black
         }
         else
         {
-            firstButton.backgroundColor = .orange
+            firstButton.backgroundColor = .yellow
         }
         view.backgroundColor = createRandomColor()
         
